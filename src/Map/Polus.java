@@ -1,4 +1,9 @@
 package Map;
 
-public class Polus {
+public class Polus extends Map
+{
+    public Polus()
+    {
+        super("Polus", TypeMap.Inside);
+    }
 }
