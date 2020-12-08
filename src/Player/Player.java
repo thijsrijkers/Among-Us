@@ -8,11 +8,6 @@ public abstract class Player
     public boolean alive;
     public String playerName;
 
-    public Player()
-    {
-    }
-
-
     public String getColorPlayer()
     {
         return colorPlayer;
@@ -53,7 +48,7 @@ public abstract class Player
         return alive;
     }
 
-    public String getPlayerName()
+    public String getName()
     {
         return playerName;
     }

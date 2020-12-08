@@ -16,9 +16,9 @@ public class Map
         return this.nameMap;
     }
 
-    public String GetTypeMap()
+    public TypeMap GetTypeMap()
     {
-        return this.nameMap;
+        return this.typeMap;
     }
 
     public enum TypeMap
